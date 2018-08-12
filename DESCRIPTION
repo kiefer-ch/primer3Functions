@@ -1,0 +1,17 @@
+Package: primer3Functions
+Title: Run Primer3 From Within R
+Version: 0.1
+Authors@R: person("Christoph", "Kiefer", email = "christophak@bmb.sdu.dk",
+                  role = c("aut", "cre"))
+Description: Run primer3 from within R. Also formats output, greps sequence
+    from fasta files and gets info about exon-exon-junctions from gtf files.
+Depends: R (>= 3.1.0)
+License: GPL-3.0-or-later
+Encoding: UTF-8
+LazyData: true
+Imports:
+    readr,
+    dplyr,
+    tidyr,
+    purrr
+RoxygenNote: 6.1.0
